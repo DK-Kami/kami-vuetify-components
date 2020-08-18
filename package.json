@@ -1,0 +1,25 @@
+{
+  "name": "kami-vuetify-components",
+  "version": "0.2.1",
+  "description": "Library of Vuetify components",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/KamiMeow/kami-vuetify-components.git"
+  },
+  "keywords": [
+    "Vue",
+    "Vue.js",
+    "Vuetify",
+    "components"
+  ],
+  "author": "Kami-san",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/KamiMeow/kami-vuetify-components/issues"
+  },
+  "homepage": "https://github.com/KamiMeow/kami-vuetify-components#readme"
+}
