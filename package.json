@@ -1,12 +1,12 @@
 {
   "name": "kami-vuetify-components",
-  "version": "0.2.1",
+  "version": "0.6.3",
   "description": "Library of Vuetify components",
   "main": "dist/kami-vuetify-components.umd.js",
   "module": "dist/kami-vuetify-components.esm.js",
   "unpkg": "dist/kami-vuetify-components.min.js",
   "browser": {
-    "./sfc": "src/kami-vuetify-components.vue"
+    "./sfc": "src/index.vue"
   },
   "scripts": {
     "build": "npm run build:umd & npm run build:es & npm run build:unpkg",
