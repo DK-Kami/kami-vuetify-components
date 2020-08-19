@@ -6,7 +6,7 @@
     :top="top"
   >
     <template #activator="{ on }">
-      <v-btn
+      <VBtn
         :class="`${textColor}--text text--darken-${darken} text--lighten-${lighten}`"
         :medium="medium"
         :color="color"
@@ -17,14 +17,14 @@
         icon
         @click.prevent="$emit('action', $event)"
       >
-        <v-icon
+        <VIcon
           :medium="medium"
           :small="small"
           :large="large"
         >
           <slot name="icon">{{ icon }}</slot>
-        </v-icon>
-      </v-btn>
+        </VIcon>
+      </VBtn>
     </template>
     <slot name="tooltip">{{ tooltip }}</slot>
   </VTooltip>
@@ -33,6 +33,8 @@
 <script>
 import {
   VTooltip,
+  VIcon,
+  VBtn,
 } from 'vuetify/lib';
 
 export default {
@@ -40,6 +42,8 @@ export default {
 
   components: {
     VTooltip,
+    VIcon,
+    VBtn,
   },
 
   props: {
