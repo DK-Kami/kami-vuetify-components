@@ -36,7 +36,6 @@
           <template v-for="header in headers">
             <v-list-item
               v-if="header.text"
-              :key="header.value"
               v-ripple
               @click="toggleHeader(header)"
             >
