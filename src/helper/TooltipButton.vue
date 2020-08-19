@@ -1,5 +1,5 @@
 <template>
-  <v-tooltip
+  <VTooltip
     :bottom="bottom"
     :right="right"
     :left="left"
@@ -27,12 +27,21 @@
       </v-btn>
     </template>
     <slot name="tooltip">{{ tooltip }}</slot>
-  </v-tooltip>
+  </VTooltip>
 </template>
 
 <script>
+import {
+  VTooltip,
+} from 'vuetify/lib';
+
 export default {
   name: 'TooltipButton',
+
+  components: {
+    VTooltip,
+  },
+
   props: {
     text: {
       type: Boolean,
