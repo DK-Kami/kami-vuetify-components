@@ -1,6 +1,6 @@
 import commonjs from '@rollup/plugin-commonjs';
-import vue from 'rollup-plugin-vue';
 import buble from '@rollup/plugin-buble';
+import vue from 'rollup-plugin-vue';
 
 export default {
   input: 'src/index.js',
