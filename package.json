@@ -1,6 +1,6 @@
 {
   "name": "kami-vuetify-components",
-  "version": "0.8.5",
+  "version": "0.8.6",
   "description": "Library of Vuetify components",
   "main": "dist/kami-vuetify-components.umd.js",
   "module": "dist/kami-vuetify-components.esm.js",
@@ -34,12 +34,14 @@
     "vuetify": "^2.3.8"
   },
   "devDependencies": {
-    "@rollup/plugin-buble": "^0.21.3",
-    "@rollup/plugin-commonjs": "^15.0.0",
-    "@vue/compiler-sfc": "^3.0.0-rc.5",
-    "rollup": "^2.26.3",
-    "rollup-plugin-vue": "^6.0.0-beta.10",
+    "css-loader": "^2.1.1",
+    "file-loader": "^3.0.1",
+    "rollup": "^1.17.0",
+    "rollup-plugin-buble": "^0.19.8",
+    "rollup-plugin-commonjs": "^10.0.1",
+    "rollup-plugin-vue": "^5.0.1",
     "vue": "^2.6.11",
+    "vue-loader": "^15.7.0",
     "vue-template-compiler": "^2.6.11"
   }
 }
