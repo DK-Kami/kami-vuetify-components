@@ -1,6 +1,6 @@
 {
   "name": "kami-vuetify-components",
-  "version": "0.6.3",
+  "version": "0.8.5",
   "description": "Library of Vuetify components",
   "main": "dist/kami-vuetify-components.umd.js",
   "module": "dist/kami-vuetify-components.esm.js",
