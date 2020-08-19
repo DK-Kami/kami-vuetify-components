@@ -9,7 +9,7 @@
 </template>
 
 <script>
-import dashboardItem from '@/helper/mixins/dashboardItem';
+import dashboardItem from '../../mixins/dashboardItem';
 
 export default {
   name: 'PieChart',

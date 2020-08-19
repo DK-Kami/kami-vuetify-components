@@ -35,11 +35,11 @@
 </template>
 
 <script>
-import StackedColumnChart from './elements/StackedColumnChart';
-import ColumnChart from './elements/ColumnChart';
-import LineChart from './elements/LineChart';
-import PieChart from './elements/PieChart';
-import Counter from './elements/Counter';
+import StackedColumnChart from './elements/StackedColumnChart.vue';
+import ColumnChart from './elements/ColumnChart.vue';
+import LineChart from './elements/LineChart.vue';
+import PieChart from './elements/PieChart.vue';
+import Counter from './elements/Counter.vue';
 
 export default {
   name: 'DashboardItem',

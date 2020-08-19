@@ -78,8 +78,8 @@
  * Компонент таблицы с фильтром
  */
 
-import FooterTable from './FooterTable';
-import MultiAutocomplete from '../../helper/MultiAutocomplete';
+import MultiAutocomplete from '../../helper/MultiAutocomplete.vue';
+import FooterTable from './FooterTable.vue';
 
 export default {
   name: 'FilteredTable',

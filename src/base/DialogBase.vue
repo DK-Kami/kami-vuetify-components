@@ -48,7 +48,7 @@
  * Компонент модального окна
  */
 
-import dialog from '@/helper/mixins/dialog';
+import dialog from '../mixins/dialog';
 
 export default {
   name: 'DialogBase',

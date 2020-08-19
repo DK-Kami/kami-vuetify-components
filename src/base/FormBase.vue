@@ -52,7 +52,7 @@
  * Компонент формы
  */
 
-import FormValidate from './FormValidate';
+import FormValidate from './FormValidate.vue';
 
 export default {
   name: 'FormBase',

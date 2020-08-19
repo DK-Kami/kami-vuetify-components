@@ -87,7 +87,7 @@ export default {
   },
 
   methods: {
-    async alert(data) {
+    alert(data) {
       this.dialog = true;
       this.data = data;
     },

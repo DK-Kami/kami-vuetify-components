@@ -69,7 +69,7 @@
 </template>
 
 <script>
-import FooterTable from './FooterTable';
+import FooterTable from './FooterTable.vue';
 
 export default {
   name: 'TableActions',

@@ -15,8 +15,8 @@
 </template>
 
 <script>
-import CalendarInput from './CalendarInput'
-import TimeInput from './TimeInput'
+import CalendarInput from './CalendarInput.vue';
+import TimeInput from './TimeInput.vue';
 
 export default {
   name: 'DateTimePicker',
